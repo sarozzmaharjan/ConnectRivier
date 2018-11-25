@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!DOCTYPE struts-config PUBLIC
+          "-//Apache Software Foundation//DTD Struts Configuration 1.2//EN"
+          "http://jakarta.apache.org/struts/dtds/struts-config_1_2.dtd">
+
+
+<struts-config>
+	<form-beans>
+		<form-bean name="signup" type="com.connectrivier.form.SignupForm" />
+		<form-bean name="signin" type="com.connectrivier.form.SigninForm" />
+		<form-bean name="signout" type="com.connectrivier.form.SignoutForm" />
+
+
+		<form-bean name="personalInfo" type="com.connectrivier.form.PersonalInformationForm" />
+		<form-bean name="changepassword" type="com.connectrivier.form.ChangePasswordForm" />
+		<form-bean name="deleteaccount" type="com.connectrivier.form.DeleteActionForm" />
+		<form-bean name="upload" type="com.connectrivier.form.UploadForm" />
+		<form-bean name="uploadPost" type="com.connectrivier.form.UploadPostForm" />
+		<form-bean name="uploadVideo" type="com.connectrivier.form.UploadVideoForm" />
+		<form-bean name="refresh" type="com.connectrivier.form.RefreshForm" />
+		<form-bean name="forgetpassword" type="com.connectrivier.form.ForgetPasswordForm" />
+		
+
+	</form-beans>
+
+
+
+	<action-mappings>
+		<action path="/sigininActions" name="refresh"
+			type="com.connectrivier.action.RefreshAction" scope="session">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+		</action>
+
+		<action path="/enquiry" type="com.searchEngine.SearchEngineAction" />
+
+		<action input="" path="/signoutAction" scope="session" name="signout"
+			type="com.connectrivier.action.SignoutAction">
+			<forward name="success" path="/connectrivier/main.jsp" />
+		</action>
+
+		<action input="/connectrivier/uploadVideo.jsp" name="upload"
+			path="/uploadVideoAction" scope="session"
+			type="com.connectrivier.action.UploadVideoAction">
+			<forward name="success" path="/" />
+			<forward name="failure" path="/" />
+		</action>
+
+		<action input="/connectrivier/uploadPost.jsp" name="uploadPost"
+			path="/uploadPostAction" scope="session" type="com.connectrivier.action.UploadPostAction">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+			<forward name="failure" path="/connectrivier/failure.jsp" />
+		</action>
+
+		<action input="/connectrivier/upload.jsp" name="upload" path="/uploadAction"
+			scope="session" type="com.connectrivier.action.UploadAction">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+			<forward name="failure" path="/connectrivier/upload.jsp" />
+		</action>
+
+		<action input="/connectrivier/signup.jsp" name="signup" path="/signupAction"
+			scope="session" type="com.connectrivier.action.SignupAction">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+			<forward name="failure" path="/connectrivier/failure.jsp" />
+		</action>
+
+		<action input="/connectrivier/signin.jsp" name="signin" path="/signinAction"
+			scope="session" type="com.connectrivier.action.SigninAction">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+			<forward name="failure" path="/connectrivier/signin.jsp" />
+		</action>
+
+		<action input="/connectrivier/dashboard.jsp" name="dashboard" path="/personalInfo"
+			scope="session" type="com.connectrivier.action.UploadAction">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+			<forward name="failure" path="/connectrivier/upload.jsp" />
+		</action>
+
+		<action input="/connectrivier/personalInformation.jsp" name="personalInfo"
+			path="/personalInformationAction" scope="session"
+			type="com.connectrivier.action.PersonalInformationAction">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+			<forward name="failure" path="/connectrivier/failure.jsp" />
+		</action>
+
+		<action input="/connectrivier/changePassword.jsp" name="changepassword"
+			path="/changePasswordAction" scope="session"
+			type="com.connectrivier.action.ChangePasswordAction">
+			<forward name="success" path="/connectrivier/profile.jsp" />
+			<forward name="failure" path="/connectrivier/failure.jsp" />
+		</action>
+
+		<action input="/connectrivier/delaccount.jsp" name="deleteaccount"
+			path="/deleteAccountAction" scope="session"
+			type="com.connectrivier.action.DeleteAccountAction">
+			<forward name="success" path="/connectrivier/signin.jsp" />
+			<forward name="failure" path="/connectrivier/failure.jsp" />
+		</action>
+		<action input="/connectrivier/forgotten.jsp" name="forgetpassword"
+			path="/forgetPasswordAction" scope="session"
+			type="com.connectrivier.action.ForgetPasswordAction">
+			<forward name="success" path="/connectrivier/tempPassword.jsp" />
+			<forward name="failure" path="/connectrivier/failure.jsp" />
+		</action>
+	</action-mappings>
+
+
+	<controller processorClass="org.apache.struts.action.RequestProcessor" />
+	<message-resources parameter="com/connectrivier/resources/ApplicationResource" />
+	<plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+		<set-property property="pathnames"
+			value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml" />
+	</plug-in>
+
+
+</struts-config>

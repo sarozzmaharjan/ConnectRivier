@@ -1,0 +1,635 @@
+/****************/
+
+#usermenu a.um_nextphoto {
+	background-image:url('../imgs/um_nextpost.gif');
+}
+#usermenu a.um_prevphoto {
+	background-image:url('../imgs/um_prevpost.gif');
+}
+#usermenu strong.um_nonextphoto {
+	background-image:url('../imgs/um_nonextpost.gif');
+}
+#usermenu strong.um_noprevphoto {
+	background-image:url('../imgs/um_noprevpost.gif');
+}
+
+#vphotohdr {
+	height:60px;						
+	}				
+#vphotohdr2 {				
+	height:60px;							
+	background-repeat:no-repeat;				
+	}				
+#vphotohdravatar {				
+	display:block;				
+	float:left;								
+	padding:4px;				
+	}
+#vphotohdravatar:hover {				
+				
+	}			
+#vphotohdravatar img {
+	border:0px;				
+	}			
+#vphotohdravatar_rss {				
+	float:left;				
+	width:60px;
+	height:60px;				
+	background-position:5px 5px;				
+	background-repeat:no-repeat;				
+	}			
+#vphotohdravatar_rss a {				
+	display:block;				
+	width:60px;				
+	height:60px;				
+			
+	}				
+#vphotohdravatar_rss a:hover {				
+				
+	}				
+#vphotohdrinfo {				
+	float:left;				
+	padding:8px;				
+	color:#555;				
+	font-size:11px;				
+	}
+	
+#vphotohdrinfo a {				
+	display:block;				
+	font-size:22px;				
+	font-family:arial;				
+	}				
+#vphotobody {				
+	margin-top:10px;				
+			
+	}				
+#vphotobody2 {				
+				
+	}				
+#vphototext {				
+	font-size:20px;				
+	font-family:Arial, Verdana;				
+	padding:10px;				
+	padding-bottom:5px;				
+	}				
+#vphototext a, #vphototext .photo_tag, #vphototext .photo_mentioned {				
+	font-size:20px;				
+	}
+	
+#vphototext .photo_tag b, #vphototext .photo_mentioned b {				
+	font-size:18px;				
+	}		
+	
+#vphotobody .photocontrols {				
+	float:right;				
+	width: 27px;				
+	background-image:url('../imgs/post2_controls1.gif');				
+	background-position:top right;				
+	overflow:visible;
+	position:relative;				
+	min-height:50px;				
+	}				
+#vphotobody .photocontrols .pfave.saved {				
+	background-position:0px -51px;				
+	}
+	
+#vphotobody .photocontrols .pfave.saved:hover {				
+	background-position:bottom left;				
+	}
+	
+#vphotobody .photocontrols .photo:hover .pfave.saved:hover {				
+	background-position:bottom left;				
+	}				
+#vphotobody #vphotoftr {				
+	color:#999;				
+	font-size:12px;				
+	padding-bottom:4px;				
+	white-space:nowrap;				
+	padding-left:10px;				
+	}				
+	
+#vphotobody #vphotoftr a {				
+	color:#666;				
+	}				
+#vphotobody #vphotoftr a:hover {				
+	color:#000;				
+	}				
+#vphoto .photocomments {				
+			
+	}
+	
+#vphotobody .photolink {				
+	margin-left:10px;				
+				
+	}
+	
+#vphotobody .filelink {				
+	margin-left:10px;
+	margin-bottom:5px;				
+	}
+	
+#viewphoto {				
+	overflow:visible;				
+	}
+#viewphoto .comment .comment_right { 				
+	width:450px;				
+	}
+	
+#viewphoto .addpc_big .addpc_right {				
+	width: 470px;				
+	}
+	
+#viewphoto .addpc_big .addpc_right textarea {				
+	width: 458px;				
+	height:30px;				
+	}
+
+/****CEDCOSS CODE FOR ALBUM SEARCH INPUT*********************/
+
+#cedsearch {
+
+	float:inherit;
+
+	height:28px;
+
+	overflow:visible;
+
+	padding-top:5px;
+
+}
+
+#cedsearch2 {
+
+	position:relative;
+
+	overflow:visible;
+
+	background-color:white;
+
+	float:right;
+
+}
+
+#cedsearch #searchinput {
+
+	float:right;
+
+	background-position:top left;
+
+	height:28px;
+
+}
+
+#cedsearch #searchinput input {
+
+	background-color:white;
+
+	border:0px;
+
+	margin:5px;
+
+	margin-bottom:0px;
+	
+	width:160px;
+
+}
+
+
+.singlealbum {
+
+	float:left;
+	width:165px;
+	padding:7px;
+	
+}
+
+.singlealbum .albumcontentouter {
+	float:left;
+}
+
+.singlealbum .albumcontentouter .albumcontent {
+	float:left;
+}
+
+.albumcontent .albumcoverborder {
+	float:left;
+	heighr:160px;
+	width:160px;
+	background-image:url("../imgs/album_bg.gif")
+}
+
+.albumcontent .albumcover {
+	float:left;
+	padding:3px 7px 7px 3px;
+}
+
+.singlealbum .albumcontentouter  .albumnameouter {
+	float:left;
+	margin-top:3px;
+}
+
+.singlealbum .albumcontentouter .albumnameouter .albumname {
+	font-size:14px;
+	font-weight:bold;
+	padding:5px;
+	
+}
+
+.singlealbum .albumcontentouter span {
+	font-size:12px;
+	padding:5px;
+	color:#666666;
+	clear:left;
+	margin-top:5px;
+	
+}
+
+.photoouter {
+	padding:15px;
+	float:left;
+}
+
+.photoouter .albumphoto {
+	float:left;
+	padding:5px;
+	border:1px solid #999999;
+}
+
+
+
+#edit_photos .photoedit {
+	float:left;
+	width:785px;
+	margin:7px;
+	border:1px solid #B8C2DE;
+	background-color:#ffffff;	
+}
+
+.photoedit .info {
+	width:500px;
+	float:left;
+}
+
+.photoedit .info .infoheading {
+	float:left;
+	padding:20px;
+	font-size:16px;
+	font-weight:bold;
+	color:#999999;
+}
+
+.photoedit .info .infofield {
+	float:left;
+	padding:20px;
+}
+
+.photo_caption {
+	padding:5px;
+	width:300px;
+	height:100px;
+}
+
+.photoedit .photo_thumb {
+	float:right;
+	padding:10px;
+}
+
+#submit_button {
+	padding:10px;
+	text-align:center;
+	background-color:#FFFFFF;
+}
+
+.albumcontent_desc {
+	margin:10px;
+	background-color:#EFEFEF;
+	padding:10px;
+}
+
+.albumcontent_desc .albumcover_border {
+	float:left;
+	heighr:129px;
+	width:160px;
+	background-image:url("../imgs/album_bg.gif")
+}
+
+.albumcontent_desc .album_cover {
+	float:left;
+	padding:2px 7px 7px 3px;
+}
+
+.albumdetail {
+	float:left;
+	margin-left:5px;
+width:334px;
+}
+
+.albumdetail .albumname {
+	float:left;
+	clear:left;
+	margin:5px;
+}
+
+.albumdetail .albumname .albumname_heading {
+	font-size:14px;
+	color:#999999;
+	font-weight:bold;
+	float:left;
+}
+
+.albumdetail .albumname .albumname_value {
+	font-size:12px;
+	color:#0055A4;
+	margin-left:15px;
+	float:left;
+}
+
+.albumdetail .createdby {
+	float:left;
+	clear:left;
+	margin:5px;
+}
+
+.albumdetail .createdby .createdby_heading {
+	font-size:14px;
+	color:#999999;
+	font-weight:bold;
+	float:left;
+}
+
+.albumdetail .createdby .createdby_value {
+	font-size:12px;
+	color:#0055A4;
+	margin-left:15px;
+	float:left;
+}
+
+.albumdetail .albumdescription {
+	float:left;
+	clear:left;
+	margin:5px;
+}
+
+.albumdetail .albumdescription .albumdescription_heading {
+	font-size:14px;
+	color:#999999;
+	font-weight:bold;
+	float:left;
+}
+
+.albumdetail .albumdescription .albumdescription_value {
+	font-size:12px;
+	color:#0055A4;
+	margin-left:15px;
+	float:left;
+}
+
+.albumdetail .albuminfo {
+	float:left;
+	clear:left;
+	margin:5px;
+}
+
+.albumdetail .albuminfo .albuminfo_heading {
+	font-size:14px;
+	color:#999999;
+	font-weight:bold;
+	float:left;
+}
+
+.albumdetail .albuminfo .albuminfo_value {
+	font-size:12px;
+	color:#0055A4;
+	margin-left:15px;
+	float:left;
+}
+
+
+#edit_photos .albumedit {
+	float:left;
+	width:785px;
+	margin:7px;
+	border:1px solid #B8C2DE;
+	background-color:#ffffff;	
+}
+
+.albumedit .album_title {
+	width:700px;
+	float:left;
+}
+
+.albumedit .album_title .title_heading {
+	float:left;
+	padding:20px;
+	font-size:16px;
+	font-weight:bold;
+	color:#999999;
+	width:200px;
+}
+
+.albumedit .album_title .title_field {
+	float:left;
+	padding:20px;
+}
+
+.albumedit .album_desc {
+	width:700px;
+	float:left;
+}
+
+.albumedit .album_desc .desc_heading {
+	float:left;
+	padding:20px;
+	font-size:16px;
+	font-weight:bold;
+	color:#999999;
+	width:200px;
+}
+
+.albumedit .album_desc .desc_field {
+	float:left;
+	padding:20px;
+}
+
+#photo_head {
+	padding:5px;
+	font-weight:bold;
+	font-size:18px;
+	color:#333333;
+	float:left;
+	margin-left:20px;
+}
+
+div.sc_menu {
+  /* Set it so we could calculate the offsetLeft */
+  position: relative;
+  /* Add scroll-bars */
+}
+ul.sc_menu {
+  display: block;
+  /* Max width here, for users without Javascript */
+  width: 1500px;
+  /* Remove default margin */
+  margin: 0;
+  background: url('navigation.png');
+  list-style: none;
+}
+.sc_menu li {
+  display: block;
+  float: left;
+  padding: 0 4px;
+}
+.sc_menu a {
+  display: block;
+  text-decoration: none;
+}
+.sc_menu span {
+  /* We want a caption to display on the next line */
+  display: block;
+  margin-top: 3px;
+  text-align: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+
+#slider{}	
+#slider ul, #slider li, #slider2 ul, #slider2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+	}
+#slider li, #slider2 li{ 
+	/* 
+		define width and height of list item (slide)
+		entire slider area will adjust according to the parameters provided here
+	*/ 
+	width:696px;
+	height:241px;
+	overflow:hidden; 
+	}	
+	
+p#controls, p#controls2{
+	margin:0;
+	position:relative;
+	} 
+
+#prevBtn, #nextBtn, #prevBtn2, #nextBtn2{ 
+	display:block;
+	margin:0;
+	overflow:hidden;
+	text-indent:-8000px;		
+	width:30px;
+	height:77px;
+	position:absolute;
+	left:-30px;
+	top:-160px;
+	}	
+#nextBtn, #nextBtn2{ 
+	left:696px;
+	}														
+#prevBtn a, #nextBtn a, #prevBtn2 a, #nextBtn2 a{  
+	display:block;
+	width:30px;
+	height:77px;
+	background:url('../imgs/btn_prev.gif') no-repeat 0 0;	
+	}	
+#nextBtn a, #nextBtn2 a{ 
+	background:url('../imgs/btn_next.gif') no-repeat 0 0;	
+	}
+
+
+
+#tag-wrapper
+{
+background:#000000;
+margin-bottom:8px;
+display: block;
+padding: 10px;
+height: auto !important;
+width: auto !important;
+position: relative;
+}
+
+	
+	
+//	#tag-wrapper img { position: absolute; }
+	
+	#tag-target
+	{
+	display: none;
+	border: 4px solid #fff;
+	box-shadow: 0px 0px 20px #000;
+	-webkit-box-shadow: 0px 0px 20px #000;
+	-moz-box-shadow: 0px 0px 20px #000;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	z-index: 2;
+	}
+	
+	#tag-input
+	{
+	background: #fff;
+	display: none;
+	padding: 5px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 137px;
+	z-index: 2;
+	}
+	
+		#tag-input label
+		{
+		display: block;
+		font-weight: bold;
+		}
+		
+		#tag-input input
+		{
+		border: 1px solid #ccc;
+		color: #888;
+		display: block;
+		margin: 5px 0px;
+		outline: 0px;
+		padding: 3px;
+		width: 124px;
+		}
+	
+	.hotspot
+	{
+	border-width: 0px;
+	box-shadow: 0px 0px 0px #000;
+	-webkit-box-shadow: 0px 0px 0px #000;
+	-moz-box-shadow: 0px 0px 0px #000;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	}
+	
+		.hotspot:hover, .hotspothover
+		{
+		border: 4px solid #fff;
+		box-shadow: 0px 0px 20px #000;
+		-webkit-box-shadow: 0px 0px 20px #000;
+		-moz-box-shadow: 0px 0px 20px #000;
+		z-index: 1;
+		}
+		
+		.hotspot span { display: none; }
+		.hotspot:hover span, .hotspothover span
+		{
+		background: #fff;
+		display: block;
+		font-weight: bold;
+		padding: 3px 0px;
+		text-align: center;
+		}
+
+.remove { color: #748950; cursor: pointer; text-decoration: underline; }
+
+
+/********CEDCOSS END*****************/		
