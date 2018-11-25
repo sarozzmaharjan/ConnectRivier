@@ -1,8 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
-	<%@taglib uri="/WEB-INF/struts-html.tld" prefix="html"%>
+<%@taglib uri="/WEB-INF/struts-html.tld" prefix="html"%>
 <%@taglib uri="/WEB-INF/struts-bean.tld" prefix="bean"%>
-   <%@page import="com.connectrivier.entity.Upload"%>
+<%@page import="com.connectrivier.entity.Upload"%>
 <%@page import="com.connectrivier.entity.PrivateInfo"%>
 <!DOCTYPE html>
 <html>
@@ -14,14 +14,18 @@
 <meta name="author" content="Saroj Maharjan" />
 
 
-		<link href="/ConnectRivier/css/albums.css" type="text/css" rel="stylesheet" />
-		<link href="/ConnectRivier/css/inside.css" type="text/css" rel="stylesheet" />
-		<link href="/ConnectRivier/contents/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<link rel="stylesheet"
+	href="https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-336696735975/css/albums.css">
+<link rel="stylesheet"
+	href="https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-336696735975/css/inside.css">
+
+<link href="/ConnectRivier/contents/favicon.ico" type="image/x-icon"
+	rel="shortcut icon" />
 
 
 </head>
 <body>
-<% 
+	<% 
 session = request.getSession(false);
 String user = (String) session.getAttribute("user"); 
 String fullname = (String) session.getAttribute("fullname");
@@ -39,9 +43,10 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 				<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><b>Welcome
 						<font color="indigo" size="3px"> <%=user %><br>
 					</font>
-				</b></a><div id="logout">
+				</b></a>
+				<div id="logout">
 					<html:form action="/signoutAction.do" method="post">
-						<html:submit value="Log Out"/>
+						<html:submit value="Log Out" />
 					</html:form>
 				</div>
 			</div>
@@ -52,15 +57,12 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 
 			<div id="netnav" class="specialhomelink">
-				<a
-					href="/ConnectRivier/connectrivier/dashboard.jsp"
-					id="logolink" title="ConnectRivier">ConnectRivier</a> 
-					<a href="/ConnectRivier/connectrivier/dashboard.jsp"
-					class="homelink"><span><b>Home</b></span></a>
-				 <a
-					href="/ConnectRivier/connectrivier/profile.jsp" id="username"  ><span><b>Profile</b></span>
-				</a> <a href="/ConnectRivier/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a> <a
-					href="javascript:;" onclick="postform_open();"><span><b>
+				<a href="/ConnectRivier/connectrivier/dashboard.jsp" id="logolink"
+					title="ConnectRivier">ConnectRivier</a> <a
+					href="/ConnectRivier/connectrivier/dashboard.jsp" class="homelink"><span><b>Home</b></span></a>
+				<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><span><b>Profile</b></span>
+				</a> <a href="/ConnectRivier/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a>
+				<a href="javascript:;" onclick="postform_open();"><span><b>
 							New Post</b></span></a>
 
 			</div>
@@ -69,8 +71,8 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 					<input type="hidden" name="lookin" value="users" />
 
 					<div id="searchinput">
-						<input type="text" id="country" name="country" value="Search Friends"
-							onClick="textClear(this);" />
+						<input type="text" id="country" name="country"
+							value="Search Friends" onClick="textClear(this);" />
 
 						<script>
 							$("#country").autocomplete("getdata.jsp");
@@ -258,9 +260,12 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\info.jsp" class="item info"><b></b><strong>Info</strong></a>
-								<a href="\ConnectRivier\connectrivier\friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
-								<a href="\ConnectRivier\connectrivier\albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
+								<a href="\ConnectRivier\connectrivier\info.jsp"
+									class="item info"><b></b><strong>Info</strong></a> <a
+									href="\ConnectRivier\connectrivier\friends.jsp"
+									class="item friend"><b></b><strong>Friends</strong></a> <a
+									href="\ConnectRivier\connectrivier\albums.jsp"
+									class="item info"><b></b><strong>Photos</strong></a>
 
 							</div>
 
@@ -286,7 +291,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 
 								<div id="usermenu">
-									
+
 
 									<div id="usrpg_top_tooltip" class="umtt" style="display: none;">
 										<div></div>
@@ -296,12 +301,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 							</div>
 
-							<div style="padding-top: 8px; padding: 15px;">
-								
-								
-								
-								
-							</div>
+							<div style="padding-top: 8px; padding: 15px;"></div>
 						</div>
 
 
@@ -324,7 +324,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 		</div>
 
 	</div>
-	
+
 
 
 

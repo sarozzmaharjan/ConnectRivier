@@ -13,8 +13,8 @@
 <meta name="author" content="Saroj Maharjan" />
 
 
-
-<link href="/ConnectRivier/css/outside.css" type="text/css" rel="stylesheet" />
+<link rel="stylesheet"
+	href="https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-336696735975/css/outside.css">
 <link href="/ConnectRivier/contents/favicon.ico" type="image/x-icon"
 	rel="shortcut icon" />
 <script type="text/javascript" src="/ConnectRivier/js/inside.js"></script>

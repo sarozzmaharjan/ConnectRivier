@@ -12,9 +12,12 @@
 <meta name="author" content="Saroj Maharjan" />
 
 
-		<link href="/ConnectRivier/css/albums.css" type="text/css" rel="stylesheet" />
-		<link href="/ConnectRivier/css/inside.css" type="text/css" rel="stylesheet" />
-		<link href="/ConnectRivier/contents/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+<link rel="stylesheet"
+	href="https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-336696735975/css/albums.css">
+<link rel="stylesheet"
+	href="https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-336696735975/css/inside.css">
+<link href="/ConnectRivier/contents/favicon.ico" type="image/x-icon"
+	rel="shortcut icon" />
 
 
 </head>
