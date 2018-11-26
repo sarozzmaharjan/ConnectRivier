@@ -97,7 +97,7 @@ String tempPassword = (String) request.getAttribute("tempPassword");
 		<div id="toprow2">
 
 			<div id="userlinks">
-				<a href="/ConnectRivier/connectrivier/signin.jsp" style="font-weight: bold"><b>Sign in</b></a> 
+				<a href="/connectrivier/signin.jsp" style="font-weight: bold"><b>Sign in</b></a> 
 			</div>
 
 		</div>
@@ -107,7 +107,7 @@ String tempPassword = (String) request.getAttribute("tempPassword");
 
 
 			<div id="netnav" class="specialhomelink">
-				<a href="/ConnectRivier/connectrivier/dashboard.jsp" id="logolink"
+				<a href="/connectrivier/dashboard.jsp" id="logolink"
 					title="ConnectRivier">ConnectRivier</a> 
 
 			</div>
@@ -150,7 +150,7 @@ String tempPassword = (String) request.getAttribute("tempPassword");
 				<div id="subfooter">
 				<div id="sfleft">
 					ConnectRivier					&middot;
-					<a href="/ConnectRivier/connectrivier/contacts.jsp">Contacts</a>
+					<a href="/connectrivier/contacts.jsp">Contacts</a>
 					&middot;								
 				</div>				
 			</div>

@@ -33,7 +33,7 @@
 		<div id="toprow2">
 
 			<div id="userlinks">
-				<a href="/ConnectRivier/connectrivier/signin.jsp"><b>Sign in</b></a> <a href="/ConnectRivier/connectrivier/signup.jsp"><b>Sign
+				<a href="/connectrivier/signin.jsp"><b>Sign in</b></a> <a href="/connectrivier/signup.jsp"><b>Sign
 						up</b></a>
 			</div>
 
@@ -113,7 +113,7 @@
 							</tr>
 							<tr>
 
-								<td><a id="forgotpass" href="/ConnectRivier/connectrivier/forgotten.jsp">Forgot your password?</a>
+								<td><a id="forgotpass" href="/connectrivier/forgotten.jsp">Forgot your password?</a>
 								</td>
 							</tr>
 						</table>
@@ -125,7 +125,7 @@
 					You can create your free account and start sharing stuff with your
 					friends.
 					<div id="joinnow">
-						<a href="/ConnectRivier/connectrivier/signup.jsp" class="register" style="margin-top: 0px; padding: 6px 10px; color: #000;"><b>Sign
+						<a href="/connectrivier/signup.jsp" class="register" style="margin-top: 0px; padding: 6px 10px; color: #000;"><b>Sign
 								up now</b></a>
 
 						<div id="loginlinks" style="border: 0; float: left; margin-top: 15px;">
@@ -139,7 +139,7 @@
 
 		<div id="subfooter">
 			<div id="sfleft">
-				ConnectRivier &middot; <a href="/ConnectRivier/connectrivier/contacts.jsp">Contacts</a>
+				ConnectRivier &middot; <a href="/connectrivier/contacts.jsp">Contacts</a>
 				&middot;
 			</div>
 		</div>

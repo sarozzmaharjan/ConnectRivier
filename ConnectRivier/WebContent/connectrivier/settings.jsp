@@ -37,7 +37,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 		<div id="toprow2">
 			<div id="userlinks">
 
-				<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><b>Welcome
+				<a href="/connectrivier/profile.jsp" id="username"><b>Welcome
 						<font color="indigo" size="3px"> <%=user %><br>
 					</font>
 				</b></a> <div id="logout">
@@ -54,11 +54,11 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 			<div id="netnav" class="specialhomelink">
 				<a
-					href="/ConnectRivier/connectrivier/dashboard.jsp
+					href="/connectrivier/dashboard.jsp
 					id="logolink" title="ConnectRivier">ConnectRivier</a> <a href="/dashboard.jsp"
 					class="homelink"><span><b>Home</b></span></a> <a
-					href="/ConnectRivier/connectrivier/profile.jsp" id="username" class="onnettab"><span><b>Profile</b></span>
-				</a> <a href="/ConnectRivier/connectrivier/settings.jsp"><span><b>Settings</b></span></a> <a
+					href="/connectrivier/profile.jsp" id="username" class="onnettab"><span><b>Profile</b></span>
+				</a> <a href="/connectrivier/settings.jsp"><span><b>Settings</b></span></a> <a
 					href="javascript:;" onclick="postform_open();"><span><b>
 							New Post</b></span></a>
 
@@ -333,7 +333,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 		<div id="subfooter">
 			<div id="sfleft">
 				ConnectRivier &middot; <a
-					href="http://sand.truman.edu/~sm5314/capstone/contacts">Contacts</a>
+					href="/connectrivier/contacts.jsp">Contacts</a>
 				&middot;
 			</div>
 		</div>

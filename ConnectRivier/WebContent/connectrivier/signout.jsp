@@ -25,7 +25,7 @@
 		<div id="headfront">
 	                               
 						<div id="toprow" class="specialhomelink">						
-							<a href="/ConnectRivier/connectrivier/main.jsp" id="logolink" title="ConnectRivier"></a>										
+							<a href="/connectrivier/main.jsp" id="logolink" title="ConnectRivier"></a>										
 						</div>
 				
 				<div id="loginbox">

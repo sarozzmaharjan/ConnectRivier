@@ -30,8 +30,8 @@
 					<div id="toprow2">
 											
 							<div id="userlinks">
-								<a href="/ConnectRivier/connectrivier/signin.jsp"><b>Sign in</b></a>
-								<a href="/ConnectRivier/connectrivier/signup.jsp"><b>Sign up</b></a>
+								<a href="/connectrivier/signin.jsp"><b>Sign in</b></a>
+								<a href="/connectrivier/signup.jsp"><b>Sign up</b></a>
 							</div>
 														
 					</div>
@@ -43,7 +43,7 @@
 					
 					
 			<div id="netnav" class="specialhomelink">
-							<a href="/ConnectRivier/connectrivier/dashboard.jsp" id="logolink" title="ConnectRivier">ConnectRivier</a>																													
+							<a href="/connectrivier/dashboard.jsp" id="logolink" title="ConnectRivier">ConnectRivier</a>																													
 			</div>
 			
 			<div id="topsearch">
@@ -129,7 +129,7 @@
 				<div id="subfooter">
 				<div id="sfleft">
 					ConnectRivier					&middot;
-					<a href="/ConnectRivier/connectrivier/contacts.jsp">Contacts</a>
+					<a href="/connectrivier/contacts.jsp">Contacts</a>
 					&middot;								
 				</div>				
 			</div>

@@ -53,7 +53,7 @@
 
 
 			<div id="netnav" class="specialhomelink">
-				<a href="http://sand.truman.edu/~sm5314/capstone/dashboard"
+				<a href="/connectrivier/main.jsp"
 					id="logolink" title="ConnectRivier">ConnectRivier</a>
 			</div>
 
@@ -123,7 +123,7 @@
 		<div id="subfooter">
 			<div id="sfleft">
 				ConnectRivier &middot; <a
-					href="http://sand.truman.edu/~sm5314/capstone/contacts">Contacts</a>
+					href="/connectrivier/contacts.jsp">Contacts</a>
 				&middot;
 			</div>
 		</div>

@@ -24,11 +24,11 @@
 <link href="/ConnectRivier/contents/favicon.ico" type="image/x-icon"
 	rel="shortcut icon" />
 
-<script type="text/javascript" src="/ConnectRivier/js/inside.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/inside_autocomplete.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/inside_postform.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/inside_posts.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/inside.js"></script>
+<script type="text/javascript" src="/js/inside_autocomplete.js"></script>
+<script type="text/javascript" src="/js/inside_postform.js"></script>
+<script type="text/javascript" src="/js/inside_posts.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
 
 
 

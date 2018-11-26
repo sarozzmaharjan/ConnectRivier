@@ -41,7 +41,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 					<div id="toprow2">						
 							<div id="userlinks">	
 							
-							<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><b>Welcome
+							<a href="/connectrivier/profile.jsp" id="username"><b>Welcome
 						<font color="indigo" size="3px"> <%=user %><br>
 					</font>
 				</b></a><div id="logout">
@@ -57,12 +57,12 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 
 			<div id="netnav" class="specialhomelink">
-				<a href="/ConnectRivier/connectrivier/dashboard.jsp" id="logolink"
+				<a href="/connectrivier/dashboard.jsp" id="logolink"
 					title="ConnectRivier">ConnectRivier</a> <a
-					href="/ConnectRivier/connectrivier/dashboard.jsp" class="homelink"><span><b>Home</b></span></a>
-				<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><span><b>Profile</b></span>
-				</a> <a href="/ConnectRivier/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a>
-				<a href="/ConnectRivier/connectrivier/upload.jsp"><span><b> New
+					href="/connectrivier/dashboard.jsp" class="homelink"><span><b>Home</b></span></a>
+				<a href="/connectrivier/profile.jsp" id="username"><span><b>Profile</b></span>
+				</a> <a href="/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a>
+				<a href="/connectrivier/upload.jsp"><span><b> New
 							Post</b></span></a>
 
 			</div>
@@ -93,9 +93,9 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 						<div id="settings_left">
 														<div class="ttl" style="margin-right:12px;"><div class="ttl2"><h3>New Post</h3></div></div>
 							<div class="sidenav">
-								<a href="/ConnectRivier/connectrivier/upload.jsp">Write something</a>
-								<a href="/ConnectRivier/connectrivier/uploadPost.jsp" class="">Upload Photo</a>															
-								<a href="/ConnectRivier/connectrivier/uploadVideo.jsp" class="">Upload Video</a>
+								<a href="/connectrivier/upload.jsp">Write something</a>
+								<a href="/connectrivier/uploadPost.jsp" class="">Upload Photo</a>															
+								<a href="/connectrivier/uploadVideo.jsp" class="">Upload Video</a>
 
 								
 							</div>	
@@ -148,7 +148,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 				<div id="subfooter">
 				<div id="sfleft">
 					ConnectRivier					&middot;
-					<a href="http://sand.truman.edu/~sm5314/capstone/contacts">Contacts</a>
+					<a href="/connectrivier/contacts.jsp">Contacts</a>
 					&middot;								
 				</div>				
 			</div>

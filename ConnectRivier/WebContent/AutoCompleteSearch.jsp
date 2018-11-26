@@ -13,11 +13,11 @@
 		<script type="text/javascript" src="jquery.bgiframe.min.js"></script>
 		<script src="jquery.dimensions.js"></script>
 		
-			<script type="text/javascript" src="/ConnectRivier/js/jquery-latest.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/jquery.autocomplete.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/jquery.bgiframe.min.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/jquery.dimensions.js"></script>
-<link type="text/css" rel="stylesheet" href="/ConnectRivier/js/jquery.autocomplete.css"/>
+			<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="/js/jquery.bgiframe.min.js"></script>
+<script type="text/javascript" src="/js/jquery.dimensions.js"></script>
+<link type="text/css" rel="stylesheet" href="/js/jquery.autocomplete.css"/>
 		
 		<script>
 		function getDetails(){

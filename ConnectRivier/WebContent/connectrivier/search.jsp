@@ -20,11 +20,11 @@
 		<script src="jquery.dimensions.js"></script>
 		<script type="text/javascript" src="jquery.autocomplete.js"></script>
 		
-		<script type="text/javascript" src="/ConnectRivier/js/jquery-latest.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/jquery.autocomplete.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/jquery.bgiframe.min.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/jquery.dimensions.js"></script>
-<link type="text/css" rel="stylesheet" href="/ConnectRivier/js/jquery.autocomplete.css"/>
+		<script type="text/javascript" src="/js/jquery-latest.js"></script>
+<script type="text/javascript" src="/js/jquery.autocomplete.js"></script>
+<script type="text/javascript" src="/js/jquery.bgiframe.min.js"></script>
+<script type="text/javascript" src="/js/jquery.dimensions.js"></script>
+<link type="text/css" rel="stylesheet" href="/js/jquery.autocomplete.css"/>
 		<script>
 		function getDetails(){
 			autoCompleteSearch("enquiry.do","txtsearch");
@@ -70,7 +70,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 					<div id="toprow2">						
 							<div id="userlinks">	
 							
-							<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><b>Welcome
+							<a href="/connectrivier/profile.jsp" id="username"><b>Welcome
 						<font color="indigo" size="3px"> <%=user %><br>
 					</font>
 				</b></a><div id="logout">
@@ -86,15 +86,15 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 					
 					
 						<div id="netnav" class="specialhomelink">
-												<a href="/ConnectRivier/connectrivier/dashboard.jsp" id="logolink" title="ConnectRivier">ConnectRivier</a>
+												<a href="/connectrivier/dashboard.jsp" id="logolink" title="ConnectRivier">ConnectRivier</a>
 															
-							<a href="/ConnectRivier/connectrivier/dashboard.jsp" class="homelink"><span><b>Home</b></span></a>
+							<a href="/connectrivier/dashboard.jsp" class="homelink"><span><b>Home</b></span></a>
 							
-							<a href="/ConnectRivier/connectrivier/profile.jsp" id="username" ><span><b>Profile</b></span> </a>
+							<a href="/connectrivier/profile.jsp" id="username" ><span><b>Profile</b></span> </a>
 																																																		
-							<a href="/ConnectRivier/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a>
+							<a href="/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a>
 							
-							<a href="/ConnectRivier/connectrivier/upload.jsp"><span><b>
+							<a href="/connectrivier/upload.jsp"><span><b>
 							New Post</b></span></a>																			
 							
 						</div>
@@ -144,7 +144,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 		<div id="subfooter">
 			<div id="sfleft">
 				ConnectRivier &middot; <a
-					href="/ConnectRivier/connectrivier/contacts.jsp">Contacts</a>
+					href="/connectrivier/contacts.jsp">Contacts</a>
 				&middot;
 			</div>
 		</div>

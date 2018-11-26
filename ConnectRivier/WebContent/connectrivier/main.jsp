@@ -17,13 +17,12 @@
 	href="https://s3.us-east-2.amazonaws.com/elasticbeanstalk-us-east-2-336696735975/css/outside.css">
 <link href="/ConnectRivier/contents/favicon.ico" type="image/x-icon"
 	rel="shortcut icon" />
-<script type="text/javascript" src="/ConnectRivier/js/inside.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/inside_autocomplete.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/inside_postform.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/inside_posts.js"></script>
-<script type="text/javascript" src="/ConnectRivier/js/swfobject.js"></script>
+<script type="text/javascript" src="/js/inside.js"></script>
+<script type="text/javascript" src="/js/inside_autocomplete.js"></script>
+<script type="text/javascript" src="/js/inside_postform.js"></script>
+<script type="text/javascript" src="/js/inside_posts.js"></script>
+<script type="text/javascript" src="/js/swfobject.js"></script>
 
-</script>
 </head>
 <body>
 
@@ -31,7 +30,7 @@
 		<div id="headfront">
 
 			<div id="toprow" class="specialhomelink">
-				<a href="/ConnectRivier/connectrivier/main.jsp" id="logolink" title="ConnectRivier"></a>
+				<a href="/connectrivier/main.jsp" id="logolink" title="ConnectRivier"></a>
 			</div>
 
 			<div id="loginbox">
@@ -47,7 +46,7 @@
 					<input type="submit" id="loginbtn" class="loginbtn" value="Sign In"
 						tabindex="4" />
 					<label style="clear: none;"> <span><a
-							href="/ConnectRivier/connectrivier/forgotten.jsp">Forgotten Password?</a></span>
+							href="/connectrivier/forgotten.jsp">Forgotten Password?</a></span>
 					</label>
 				</html:form>
 			</div>
@@ -132,7 +131,7 @@
 
 			<div class="footerintro">
 				ConnectRivier: Let's get connected || <a
-					href="/ConnectRivier/connectrivier/contacts.jsp">Contact us</a>
+					href="/connectrivier/contacts.jsp">Contact us</a>
 			</div>
 
 		</div>

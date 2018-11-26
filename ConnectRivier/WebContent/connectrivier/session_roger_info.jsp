@@ -44,7 +44,7 @@ Address addressObj = (Address) session.getAttribute("addressObj");
 		<div id="toprow2">
 			<div id="userlinks">
 
-				<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><b>Welcome
+				<a href="/connectrivier/profile.jsp" id="username"><b>Welcome
 						<font color="indigo" size="3px"> <%=user %><br>
 					</font>
 				</b></a> <div id="logout">
@@ -61,12 +61,12 @@ Address addressObj = (Address) session.getAttribute("addressObj");
 
 			<div id="netnav" class="specialhomelink">
 				<a
-					href="/ConnectRivier/connectrivier/dashboard.jsp(yo chahi sabaiko blog type ko garna sakyo bhane)"
+					href="/connectrivier/dashboard.jsp(yo chahi sabaiko blog type ko garna sakyo bhane)"
 					id="logolink" title="ConnectRivier">ConnectRivier</a> <a href="/dashboard.jsp"
 					class="homelink"><span><b>Home</b></span></a> <a
-					href="/ConnectRivier/connectrivier/profile.jsp" id="username"><span><b>Profile</b></span>
-				</a> <a href="/ConnectRivier/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a> 
-				<a href="/ConnectRivier/connectrivier/upload.jsp"><span><b>
+					href="/connectrivier/profile.jsp" id="username"><span><b>Profile</b></span>
+				</a> <a href="/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a> 
+				<a href="/connectrivier/upload.jsp"><span><b>
 							New Post</b></span></a>
 
 			</div>
@@ -228,7 +228,7 @@ Address addressObj = (Address) session.getAttribute("addressObj");
 		<div id="subfooter">
 			<div id="sfleft">
 				ConnectRivier &middot; <a
-					href="/ConnectRivier/connectrivier/contacts">Contacts</a>
+					href="/connectrivier/contacts">Contacts</a>
 				&middot;
 			</div>
 		</div>
