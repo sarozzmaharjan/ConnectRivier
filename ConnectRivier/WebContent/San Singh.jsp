@@ -148,11 +148,11 @@
 												San Singh
 											</a>
 											<div class="posttext">
-												Best of luck to Truman Graduates
+												Best of luck to Rivier Graduates
 
 											</div>
 											<div class="postftr">
-												<font style="color: #999;"> 2013-11-18 18:19</font>
+												<font style="color: #999;"> 2018-11-18 18:19</font>
 
 											</div>
 											<br>

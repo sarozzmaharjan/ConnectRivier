@@ -122,7 +122,7 @@
 
 								<h2>John Smith</h2>
 								<p></p>
-								<div class="infoheader1">Male, johnsmith@truman.edu
+								<div class="infoheader1">Male, johnsmith@rivier.edu
 								</div>
 							</div>
 
@@ -130,7 +130,7 @@
 								<div class="ttl" style="margin-top:-20px;">
 									<div class="ttl2">
 										<h3>About Me:</h3><br>
-										<p>Hi, I am a Sophomore at truman</p>
+										<p>Hi, I am a freshman at Rivier</p>
 									</div>
 									<div class="klear"></div>
 								</div>
@@ -153,7 +153,7 @@
 
 											</div>
 											<div class="postftr">
-												<font style="color: #999;"> 2013-11-19 14:15</font>
+												<font style="color: #999;"> 2018-11-19 14:15</font>
 
 											</div>
 											<br>
@@ -175,7 +175,32 @@
 
 											</div>
 											<div class="postftr">
-												<font style="color: #999;"> 2013-11-20 12:13</font>
+												<font style="color: #999;"> 2018-11-20 12:13</font>
+
+											</div>
+											<br>
+
+
+										</div>
+										
+
+
+
+									</div>
+									<div class="post">
+										
+										
+											<div class="postbody">
+
+
+											<a href="\ConnectRivier\John%20Smith.jsp" class="postusername">
+												John Smith
+											</a>
+											<div class="posttext">
+												Excitied for Christmas
+											</div>
+											<div class="postftr">
+												<font style="color: #999;"> 2018-11-20 12:13</font>
 
 											</div>
 											<br>

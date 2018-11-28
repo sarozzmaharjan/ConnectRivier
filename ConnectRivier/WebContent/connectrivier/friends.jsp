@@ -130,19 +130,19 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 								<div class="avatarorang">
 
-									<a href="\ConnectRivier\John%20Smith.jsp"
+									<a href="\John%20Smith.jsp"
 										style="color: #222; font-size: 14px;">John Smith</a>
 								</div>
 
 								<div class="avatarorang">
 
-									<a href="\ConnectRivier\San%20Singh.jsp"
+									<a href="\San%20Singh.jsp"
 										style="color: #222; font-size: 14px;">San Singh</a>
 								</div>
 
 								<div class="avatarorang">
 
-									<a href="\ConnectRivier\Roger%20Waters.jsp"
+									<a href="\Roger%20Waters.jsp"
 										style="color: #222; font-size: 14px;">Roger Waters</a>
 								</div>
 
