@@ -94,7 +94,7 @@
 						<logic:iterate name="uploadObjListDashBoard" id="item">
 							<div class="post">
 								<div class="postbody">
-									<a href="\ConnectRivier\connectrivier\profile.jsp"
+									<a href="/connectrivier/profile.jsp"
 										class="postusername"> <bean:write name="item"
 											property="fullname" /></a>
 									<div class="posttext">

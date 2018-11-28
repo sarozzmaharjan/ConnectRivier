@@ -46,7 +46,7 @@
 
 
 			<div id="netnav" class="specialhomelink">
-				<a href="\ConnectRivier\connectrivier\main.jsp" id="logolink" title="ConnectRivier">ConnectRivier</a>
+				<a href="/connectrivier/main.jsp" id="logolink" title="ConnectRivier">ConnectRivier</a>
 			</div>
 
 

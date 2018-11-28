@@ -99,9 +99,9 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\session_san_info.jsp" class="item info"><b></b><strong>Info</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_san_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_san_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
+								<a href="/connectrivier/session_san_info.jsp" class="item info"><b></b><strong>Info</strong></a>
+								<a href="/connectrivier/session_san_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
+								<a href="/connectrivier/session_san_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
 
 							</div>
 
@@ -128,7 +128,7 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 								
 								<div class="avatarorang">	
 								
-								<a href="\ConnectRivier\connectrivier\profile.jsp" style="color:#222; font-size:14px;">Saroj Maharjan</a>
+								<a href="/connectrivier/profile.jsp" style="color:#222; font-size:14px;">Saroj Maharjan</a>
 								</div>
 								
 								<div class="avatarorang">	

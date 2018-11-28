@@ -101,9 +101,9 @@ Address addressObj = (Address) session.getAttribute("addressObj");
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\info.jsp" class="item info"><b></b><strong>Info</strong></a>
-								<a href="\ConnectRivier\connectrivier\friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
-								<a href="\\ConnectRivier\connectrivier\albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
+								<a href="/connectrivier/info.jsp" class="item info"><b></b><strong>Info</strong></a>
+								<a href="/connectrivier/friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
+								<a href="\/connectrivier/albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
 
 							</div>
 
@@ -132,7 +132,7 @@ Address addressObj = (Address) session.getAttribute("addressObj");
 								<div class="ttl">
 									<div class="ttl2">
 										<h3>Details</h3>
-										<a class="ttlink" href="\ConnectRivier\connectrivier\personalInformation.jsp">edit</a>
+										<a class="ttlink" href="/connectrivier/personalInformation.jsp">edit</a>
 									</div>
 								</div>
 								<div style="margin-left: 4px;">

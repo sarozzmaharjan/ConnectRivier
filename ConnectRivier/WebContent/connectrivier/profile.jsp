@@ -123,9 +123,9 @@
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\info.jsp" class="item info"><b></b><strong>Info</strong></a>
-								<a href="\ConnectRivier\connectrivier\friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
-								<a href="\ConnectRivier\connectrivier\albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
+								<a href="/connectrivier/info.jsp" class="item info"><b></b><strong>Info</strong></a>
+								<a href="/connectrivier/friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
+								<a href="/connectrivier/albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
 								<html:form action="/sigininActions.do" method="post">
 									<input name="string" type="hidden" />
 									<html:submit value="updates"></html:submit>
@@ -167,7 +167,7 @@
 										<div class="postbody">
 
 
-											<a href="\ConnectRivier\connectrivier\profile.jsp" class="postusername">
+											<a href="/connectrivier/profile.jsp" class="postusername">
 												<bean:write name="item" property="fullname" />
 											</a>
 											<div class="posttext">

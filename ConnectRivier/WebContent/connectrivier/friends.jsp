@@ -97,11 +97,11 @@ PrivateInfo privateInfoObj = (PrivateInfo) session.getAttribute("privateInfoObj"
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\info.jsp"
+								<a href="/connectrivier/info.jsp"
 									class="item info"><b></b><strong>Info</strong></a> <a
-									href="\ConnectRivier\connectrivier\friends.jsp"
+									href="/connectrivier/friends.jsp"
 									class="item friend"><b></b><strong>Friends</strong></a> <a
-									href="\ConnectRivier\connectrivier\albums.jsp"
+									href="/connectrivier/albums.jsp"
 									class="item info"><b></b><strong>Photos</strong></a>
 
 							</div>

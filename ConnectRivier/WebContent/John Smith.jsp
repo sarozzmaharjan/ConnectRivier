@@ -109,9 +109,9 @@
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\session_john_info.jsp" class="item info"><b></b><strong>Info</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_john_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_john_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
+								<a href="/connectrivier/session_john_info.jsp" class="item info"><b></b><strong>Info</strong></a>
+								<a href="/connectrivier/session_john_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
+								<a href="/connectrivier/session_john_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
 
 							</div>
 

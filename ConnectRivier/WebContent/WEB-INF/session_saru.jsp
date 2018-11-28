@@ -50,7 +50,7 @@
 		<div id="toprow2">
 			<div id="userlinks">
 
-				<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><b>Welcome
+				<a href="/connectrivier/profile.jsp" id="username"><b>Welcome
 						<font color="indigo" size="3px"> <%=user%><br>
 
 					</font>
@@ -68,12 +68,12 @@
 
 
 			<div id="netnav" class="specialhomelink">
-				<a href="/ConnectRivier/connectrivier/dashboard.jsp" id="logolink"
+				<a href="/connectrivier/dashboard.jsp" id="logolink"
 					title="ConnectRivier">ConnectRivier</a> <a
-					href="/ConnectRivier/connectrivier/dashboard.jsp" class="homelink"><span><b>Home</b></span></a>
-				<a href="/ConnectRivier/connectrivier/profile.jsp" id="username"><span><b>Profile</b></span>
-				</a> <a href="/ConnectRivier/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a>
-				<a href="/ConnectRivier/connectrivier/upload.jsp"><span><b> New
+					href="/connectrivier/dashboard.jsp" class="homelink"><span><b>Home</b></span></a>
+				<a href="/connectrivier/profile.jsp" id="username"><span><b>Profile</b></span>
+				</a> <a href="/connectrivier/personalInformation.jsp"><span><b>Settings</b></span></a>
+				<a href="/connectrivier/upload.jsp"><span><b> New
 							Post</b></span></a>
 
 			</div>
@@ -105,9 +105,9 @@
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\session_saru_info.jsp" class="item info"><b></b><strong>Info</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_saru_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_saru_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
+								<a href="/connectrivier/session_saru_info.jsp" class="item info"><b></b><strong>Info</strong></a>
+								<a href="/connectrivier/session_saru_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
+								<a href="/connectrivier/session_saru_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
 
 							</div>
 
@@ -141,7 +141,7 @@
 										<div class="postbody">
 
 
-											<a href="\ConnectRivier\connectrivier\session_saru.jsp" class="postusername">
+											<a href="/connectrivier/session_saru.jsp" class="postusername">
 												Saru Maharjan
 											</a>
 											<div class="posttext">
@@ -163,7 +163,7 @@
 											<div class="postbody">
 
 
-											<a href="\ConnectRivier\connectrivier\session_saru.jsp" class="postusername">
+											<a href="/connectrivier/session_saru.jsp" class="postusername">
 												Saru Maharjan
 											</a>
 											<div class="posttext">
@@ -204,7 +204,7 @@
 
 		<div id="subfooter">
 			<div id="sfleft">
-				ConnectRivier &middot; <a href="/ConnectRivier/connectrivier/contacts.jsp">Contacts</a>
+				ConnectRivier &middot; <a href="/connectrivier/contacts.jsp">Contacts</a>
 				&middot;
 			</div>
 		</div>

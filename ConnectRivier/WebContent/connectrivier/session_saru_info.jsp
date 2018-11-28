@@ -97,9 +97,9 @@ Address addressObj = (Address) session.getAttribute("addressObj");
 
 							<div id="homefltr">
 
-								<a href="\ConnectRivier\connectrivier\session_saru_info.jsp" class="item info"><b></b><strong>Info</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_saru_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
-								<a href="\ConnectRivier\connectrivier\session_saru_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
+								<a href="/connectrivier/session_saru_info.jsp" class="item info"><b></b><strong>Info</strong></a>
+								<a href="/connectrivier/session_saru_friends.jsp" class="item friend"><b></b><strong>Friends</strong></a>
+								<a href="/connectrivier/session_saru_albums.jsp" class="item info"><b></b><strong>Photos</strong></a>
 
 							</div>
 
